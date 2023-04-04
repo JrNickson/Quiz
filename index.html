@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover"
+    />
+    <meta name="apple-mobile-web-app-status-bar-style" content="#f857a6" />
+    <meta content="yes" name="apple-mobile-web-app-capable" />
+    <meta content="width" name="MobileOptimized" />
+    <meta content="true" name="HandheldFriendly" />
+    <link rel="stylesheet" href="./style.css" />
+    <title>Quiz</title>
+  </head>
+  <body>
+    <div class="quiz-wrapper">
+      <div class="quiz-header">
+        <!-- Разметка для вопроса -->
+        <h2 class="quiz-header__title">Вопрос</h2>
+
+        <!-- Разметка для результата -->
+        <h2 class="quiz-header__title"></h2>
+        <h3 class="quiz-header__summary"></h3>
+        <p class="quiz-header__result"></p>
+      </div>
+      <ul class="quiz-list">
+        <li class="quiz-list__item">
+          <label for="">
+            <input type="radio" name="answer" />
+            <span>Ответ</span>
+          </label>
+        </li>
+        <li class="quiz-list__item">
+          <label for="">
+            <input type="radio" name="answer" />
+            <span>Ответ</span>
+          </label>
+        </li>
+      </ul>
+      <button class="quiz-button quiz-button_submit" type="submit">Отвеить</button>
+    </div>
+    <script src="./main.js"></script>
+  </body>
+</html>
